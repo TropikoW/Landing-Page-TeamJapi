@@ -19,22 +19,33 @@ p{
     font-family: var(--fontLato);
     font-size: 1.9rem;
 }
+a{
+    font-family: var(--fontLato);
+    font-size: 1.9rem;
+}
 header nav{
-    display: inline-block;
+    display: flex;
 }
 /* class */
 .container-header{
     display: grid;
-    grid-template-rows: 50% 50%;
-}
-.container-logo{
-    display: flex;
+    grid-template-columns: auto 10% auto 10%;
 }
 .bar-navegation{
+    display: inline-block;
+}
+.bar-navegation p{
     display: flex;
 }
 .logo{
     width: 10rem;
+}
+.bar-links li{
+    margin: 2rem;
+    list-style: none;
+}
+.bar-links li a{
+    text-decoration: none;
 }
 .background-content{
     background-image:url(../assets/Ilustración_sin_título\ 14.png);
