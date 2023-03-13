@@ -1,0 +1,41 @@
+:root{
+    --white : #FFFFFF;
+    --black : #181418;
+    --gray : #E2DCD9;
+    --darkGray : #38333C;
+    --orange : #EB5E32;
+    --ligthOrange : #F08340;
+    --fontLato : 'Lato', sans-serif;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%; /*1rem = 10px*/
+}
+p{
+    font-family: var(--fontLato);
+    font-size: 1.9rem;
+}
+header nav{
+    display: inline-block;
+}
+/* class */
+.container-header{
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+.container-logo{
+    display: flex;
+}
+.bar-navegation{
+    display: flex;
+}
+.logo{
+    width: 10rem;
+}
+.background-content{
+    background-image:url(../assets/Ilustración_sin_título\ 14.png);
+}
