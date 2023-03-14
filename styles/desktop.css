@@ -3,6 +3,7 @@
     --black : #181418;
     --gray : #E2DCD9;
     --darkGray : #38333C;
+    --very-ligth-pink : #c7c7c740;
     --orange : #EB5E32;
     --ligthOrange : #F08340;
     --fontLato : 'Lato', sans-serif;
@@ -30,7 +31,7 @@ a{
     grid-auto-columns: auto;
     border-bottom: 0.1rem solid var(--gray);
 }
-.container-header img{
+.container-header .logo{
     grid-column: 2;
     margin: 0 auto;
 }
@@ -69,8 +70,13 @@ a{
     margin-top: 10rem;
 }
 .container-maintenance{
-    margin: 0 auto;
+    margin: -3rem auto;
 }
 .maintenance{
     width: 15rem;
+}
+.container-logo{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
 }
