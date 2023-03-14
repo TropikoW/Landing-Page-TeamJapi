@@ -60,7 +60,7 @@ a{
     flex-direction: column;
     justify-content: center;
     background-image:url(../assets/backgroundimage3.png);
-    height:100vh;
+    background-size: cover;
 }
 .container-paragraph{
     display: flex;
@@ -68,6 +68,9 @@ a{
     align-items: center;
     margin-top: 10rem;
 }
-.container-paragraph p{
-    margin: 1rem;
+.container-maintenance{
+    margin: 0 auto;
+}
+.maintenance{
+    width: 15rem;
 }
