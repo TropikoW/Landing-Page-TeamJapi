@@ -48,6 +48,15 @@ header nav{
     text-decoration: none;
 }
 .background-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-image:url(../assets/backgroundimage3.png);
-    height:45rem;
+    height:100vh;
+}
+.container-paragraph{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
