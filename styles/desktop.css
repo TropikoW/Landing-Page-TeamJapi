@@ -29,7 +29,8 @@ header nav{
 /* class */
 .container-header{
     display: grid;
-    grid-template-columns: auto 10% auto 10%;
+    grid-template-columns: repeat(2,1fr);
+    grid-auto-rows: auto;
 }
 .bar-navegation{
     display: inline-block;
@@ -41,12 +42,12 @@ header nav{
     width: 10rem;
 }
 .bar-links li{
-    margin: 2rem;
     list-style: none;
 }
 .bar-links li a{
     text-decoration: none;
 }
 .background-content{
-    background-image:url(../assets/Ilustración_sin_título\ 14.png);
+    background-image:url(../assets/backgroundimage3.png);
+    height:45rem;
 }
