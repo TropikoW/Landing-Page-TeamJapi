@@ -69,6 +69,9 @@ a{
     align-items: center;
     margin-top: 10rem;
 }
+.container-paragraph p{
+    margin: 2rem;
+}
 .container-maintenance{
     margin: -3rem auto;
 }
