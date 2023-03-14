@@ -1,3 +1,6 @@
 @media (max-width: 640px) {
-    
+    .container-paragraph{
+        margin: 0;
+        text-align: center;
+    }
 }
