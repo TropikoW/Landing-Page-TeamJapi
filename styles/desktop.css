@@ -38,24 +38,6 @@ a{
 .logo{
     width: 10rem;
 }
-.container-nav{
-    grid-column: 1;
-    grid-row: 1;
-}
-.bar-links{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
-    align-items: center;
-}
-.bar-links li{
-    list-style: none;
-}
-.bar-links li a{
-    text-decoration: none;
-    color: var(--black);
-}
 .background-content{
     display: flex;
     flex-direction: column;
