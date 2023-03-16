@@ -7,6 +7,7 @@
     --orange : #EB5E32;
     --ligthOrange : #F08340;
     --fontLato : 'Lato', sans-serif;
+    --fontJupiter : 'Jupiteroid';
     ;
 }
 *{
@@ -22,7 +23,7 @@ body{
     background-size: cover;
 }
 p{
-    font-family: var(--fontLato);
+    font-family: var(--fontJupiter);
     font-size: 1.9rem;
 }
 a{
