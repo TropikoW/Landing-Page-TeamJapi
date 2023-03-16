@@ -7,6 +7,7 @@
     --orange : #EB5E32;
     --ligthOrange : #F08340;
     --fontLato : 'Lato', sans-serif;
+    ;
 }
 *{
     box-sizing: border-box;
@@ -15,6 +16,10 @@
 }
 html{
     font-size: 62.5%; /*1rem = 10px*/
+}
+body{
+    background-image:url(../assets/background5.png);
+    background-size: cover;
 }
 p{
     font-family: var(--fontLato);
@@ -42,8 +47,6 @@ a{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image:url(../assets/backgroundimage3.png);
-    background-size: cover;
 }
 .container-paragraph{
     display: flex;
@@ -63,5 +66,11 @@ a{
 .container-logo{
     display: flex;
     justify-content: center;
-    gap: 2rem;
+    gap: 5rem;
+}
+.logo-whatsapp{
+    width: 8rem;
+}
+.logo-instagram{
+    width: 8rem;
 }
