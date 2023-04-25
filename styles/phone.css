@@ -33,3 +33,8 @@
     left: 1rem;
    }
 }
+@media (max-width: 896px) {
+    .img_modal{
+        max-width: 75%;
+    }
+}
