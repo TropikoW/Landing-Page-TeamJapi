@@ -20,7 +20,14 @@
         padding: 2rem;
     }
 }
-@media (max-width: 667px) {
+@media (min-width: 667px) {
+    .modal_container{
+        display: flex;
+    }
+    .img_modal{
+        max-width: 90%;
+        margin: 0 auto;
+    }
    .img_modal_close{
     padding: 1;
     left: 1rem;
