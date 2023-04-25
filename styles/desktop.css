@@ -6,8 +6,8 @@
     --very-ligth-pink : #c7c7c740;
     --orange : #EB5E32;
     --ligthOrange : #F08340;
-    --fontLato : 'Lato', sans-serif;
     --fontJupiter : 'Jupiteroid';
+    --fontBitstream : 'Bitstream Vera Sans Mono';
     ;
 }
 *{
@@ -22,12 +22,12 @@ body{
     background-image:url(../assets/background5.png);
     background-size: cover;
 }
+h1{
+    font-family: var(--fontJupiter);
+    font-size: 3rem;
+}
 p{
     font-family: var(--fontJupiter);
-    font-size: 1.9rem;
-}
-a{
-    font-family: var(--fontLato);
     font-size: 1.9rem;
 }
 /* class */
@@ -53,10 +53,13 @@ a{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 10rem;
+    margin-top: 5rem;
 }
 .container-paragraph p{
     margin: 2rem;
+}
+.container-paragraph p:last-child{
+    font-family: var(--fontBitstream);
 }
 .container-maintenance{
     margin: -5rem auto -6rem auto;
@@ -74,4 +77,13 @@ a{
 }
 .logo-instagram{
     width: 8rem;
+}
+.container_proposal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img_proposal{
+    width: 50rem;
 }
