@@ -1,6 +1,6 @@
 @media (max-width: 640px) {
     .container-paragraph{
-        margin: 0;
+        margin: 8;
         text-align: center;
     }
     .container_proposal{
@@ -11,4 +11,18 @@
     .img_proposal{
         width: 100%;
     }
+    .img_modal{
+        width: 100%;
+    }
+    .img_modal_close{
+        top: 1rem;
+        left: 0rem;
+        padding: 2rem;
+    }
+}
+@media (max-width: 667px) {
+   .img_modal_close{
+    padding: 1;
+    left: 1rem;
+   }
 }
