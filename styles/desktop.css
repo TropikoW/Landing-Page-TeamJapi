@@ -53,16 +53,10 @@ p{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 5rem;
-}
-.container-paragraph p{
-    margin: 2rem;
+    margin: 8rem;
 }
 .container-paragraph p:last-child{
     font-family: var(--fontBitstream);
-}
-.container-maintenance{
-    margin: -5rem auto -6rem auto;
 }
 .maintenance{
     width: 15rem;
@@ -86,6 +80,12 @@ p{
     margin-top: 5rem;
     gap: 2rem;
 }
+.container_proposal h1{
+    color: var(--orange);
+}
 .img_proposal{
     width: 50rem;
+}
+.img_proposalZoom{
+    width: 80%;
 }
