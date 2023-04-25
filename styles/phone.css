@@ -3,4 +3,12 @@
         margin: 0;
         text-align: center;
     }
+    .container_proposal{
+        margin-top: 2rem;
+        text-align: center;
+        gap: 2rem;
+    }
+    .img_proposal{
+        width: 100%;
+    }
 }
