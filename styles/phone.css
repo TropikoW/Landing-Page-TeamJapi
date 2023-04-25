@@ -34,7 +34,20 @@
    }
 }
 @media (max-width: 896px) {
+    .modal_container{
+        display: flex;
+    }
     .img_modal{
         max-width: 75%;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 900px) {
+    .modal_container{
+        display: flex;
+    }
+    .img_modal{
+        max-width: 70%;
+        margin: 0 auto;
     }
 }
