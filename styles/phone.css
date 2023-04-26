@@ -66,8 +66,8 @@
         max-width: 98%;
     }
  }
- @media (max-width: 1640px) {
+ @media (min-width: 1640px) {
     .img_modal{
-        max-width: 70%;
+        max-width: 50%;
     }
  }
