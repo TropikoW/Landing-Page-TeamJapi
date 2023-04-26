@@ -1,3 +1,8 @@
+@media (max-width: 375px) {
+    .img_modal{
+     max-width: 99%;
+    }
+ }
 @media (max-width: 640px) {
     .container-paragraph{
         margin: 8;
@@ -51,8 +56,8 @@
         margin: 0 auto;
     }
 }
-@media (max-width: 375px) {
+@media (max-width: 393px) {
     .img_modal{
-     max-width: 99%;
+        max-width: 98%;
     }
  }
