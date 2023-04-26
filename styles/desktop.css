@@ -72,6 +72,9 @@ p{
 .logo-instagram{
     width: 8rem;
 }
+.logo_linkedin{
+    width: 8rem;
+}
 .container_proposal{
     display: flex;
     flex-direction: column;
