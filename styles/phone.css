@@ -66,3 +66,8 @@
         max-width: 98%;
     }
  }
+ @media (max-width: 1640px) {
+    .img_modal{
+        max-width: 85%;
+    }
+ }
